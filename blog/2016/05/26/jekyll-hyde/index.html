@@ -1,0 +1,152 @@
+﻿<!DOCTYPE html>
+<html>
+<head>
+    <title>Jekyll &amp; Hyde | Maki Villano</title>
+    <link rel="stylesheet" href="https://fonts.googleapis.com/icon?family=Material+Icons">
+    <link href='https://fonts.googleapis.com/css?family=Montserrat|Muli' rel='stylesheet'>
+    <link rel="stylesheet" href="https://code.getmdl.io/1.1.3/material.grey-red.min.css" />
+    <link rel="stylesheet" href="/_css/mv.css">
+    <script defer src="https://code.getmdl.io/1.1.3/material.min.js"></script>
+</head>
+<body>
+    <div class="mdl-layout mdl-js-layout mdl-layout--fixed-header mdl-layout--no-desktop-drawer-button">
+        <header class="mdl-layout__header  mdl-typography--text-uppercase mdl-color--white">
+            <div class="mdl-layout__header-row">
+                <span class="mdl-layout-title"><img src="/_images/logo.svg" width="32" height="32" /> Maki Villano</span>
+                <div class="mdl-layout-spacer"></div>
+                <nav class="mdl-navigation mdl-layout--large-screen-only">
+                    <a class="mdl-navigation__link" href="../../../../../">Home</a>
+                    <a class="mdl-navigation__link mdl-color-text--red-A700" href="../../../../">Blog</a>
+                    <a class="mdl-navigation__link" href="../../../../../code/">Code</a>
+                    <a class="mdl-navigation__link" href="../../../../../about/">About</a>
+                </nav>
+            </div>
+        </header>
+        <div class="mdl-layout__drawer  mdl-color--white">
+            <span class="mdl-layout-title mv-nega-gine-32px"><img src="/_images/logo.svg" width="208" height="208" /></span>
+            <nav class="mdl-navigation mdl-typography--text-uppercase">
+                <a class="mdl-navigation__link" href="../../../../../">Home</a>
+                <a class="mdl-navigation__link mdl-color-text--red-A700" href="../../../../">Blog</a>
+                <a class="mdl-navigation__link" href="../../../../../code/">Code</a>
+                <a class="mdl-navigation__link" href="../../../../../about/">About</a>
+            </nav>
+        </div>
+        <main class="mdl-layout__content mdl-color--grey-200">
+            <div class="page-content">
+                <div class="mdl-grid mv-content-max-width">
+                    <div class="mdl-cell mdl-cell--8-col mdl-shadow--2dp mdl-card  mv-title-card">
+                        <div class="mdl-card__title mdl-card--border">
+                            <h2 class="mdl-card__title-text mv-cap-label mdl-color-text--red-A700 mdl-typography--text-uppercase">
+                                Jekyll &amp; Hyde
+                            </h2>
+                            <h3 class="mdl-card__subtitle-text">26 May 2016</h3>
+                        </div>
+                        <div class="mdl-card__supporting-text mdl-color-text--grey-800">
+                            <a href="../../../../">Back to Blog</a>
+                        </div>
+                    </div>
+                    <div class="mdl-cell mdl-cell--4-col-desktop mdl-cell--hide-tablet mdl-cell--hide-phone mdl-color--red-100"></div>
+                    <div class="mdl-cell mdl-cell--3-col-desktop mdl-cell--hide-tablet mdl-cell--hide-phone mdl-color--blue-grey-100"></div>
+                    <div class="mdl-cell mdl-cell--9-col mdl-shadow--2dp mdl-card">
+                        <div class="mdl-card__supporting-text mdl-color-text--grey-800">
+                            <p>
+                                Anyone who reads up on setting up a web site at <a href="https://pages.github.com/">Github Pages</a> will definitely
+                                run into <a href="http://jekyllrb.com/">Jekyll</a>. Sure enough, Jekyll is what Github Pages alludes to in greeting
+                                you with <q>Roll vanilla, or generate a site for your project to quickly get started.</q>
+                            </p>
+                            <p>
+                                I find it strange, actually, how Github Pages seem to just hint at Jekyll's presence while
+                                over at Jekyll's site, it goes all out in saying that <q>Github Pages are <em>powered by Jekyll</em>.</q>
+                            </p>
+                            <p>
+                                Their strange romance aside, I'm always up for trying out tech so I dove right into Jekyll's docs and whatever I can Google about it.
+                            </p>
+                        </div>
+                        <div class="mdl-card__title"><h2 class="mdl-card__title-text">Meet Jekyll</h2></div>
+                        <div class="mdl-card__supporting-text mdl-color-text--grey-800">
+                            <p>
+                                <q>Simple. Static. Blog-aware. Get up and running <em>in seconds</em>.</q>
+                            </p>
+                            <p>
+                                I'm not gonna repeat the material out there on Jekyll but simply put, I was sold.
+                                I was amazed that even though I dropped it in the end, I still think Jekyll is really cool.
+                            </p>
+                            <p>
+                                Itching to get started, I jumped immediately to, you guessed it, the <a href="https://jekyllrb.com/docs/home/">Getting Started</a> section of the docs.
+                            </p>
+                        </div>
+                        <div class="mdl-card__title"><h2 class="mdl-card__title-text">Not so fast</h2></div>
+                        <div class="mdl-card__supporting-text mdl-color-text--grey-800">
+                            <p>
+                                Just when I got all hyped, I ran into this bit:
+                            </p>
+                            <blockquote cite="https://jekyllrb.com/docs/installation/">
+                                <strong>Running Jekyll on Windows</strong>
+                                <br>
+                                While Windows is not officially supported, it is possible to get it running on Windows.
+                                Special instructions can be found on our <a href="http//jekyllrb.com/docs/windows/">Windows-specific docs page</a>.
+                            </blockquote>
+                            <p>
+                                So much for getting up and running <em>in seconds</em>.
+                            </p>
+                            <p>
+                                Naturally, my enourmous <em>hacker ego</em> could not be easily dissuaded. Looking at Jekyll's cascade of depencies,
+                                I'll need <a href="https://nodejs.org/en/">Node.js</a> for <a href="https://www.npmjs.com/">NPM</a>,
+                                <a href="https://www.ruby-lang.org/en/">Ruby</a> and <a href="https://rubygems.org/">RubyGems</a> before I can pull down Jekyll.
+                                Oh, if I went with <a href="https://chocolatey.org/">Chocolatey</a>, I can skip the NPM part and go straight to installing Ruby and RubyGems and then Jekyll.
+                            </p>
+                            <p>
+                                I took a step back and thought, is Jekyll worth grabbing all of those, potentially messing up my current machine configuration?
+                            </p>
+                            <p>
+                                No.
+                            </p>
+                        </div>
+                        <div class="mdl-card__title"><h2 class="mdl-card__title-text">Going virtual</h2></div>
+                        <div class="mdl-card__supporting-text mdl-color-text--grey-800">
+                            <p>
+                                To keep my machine's configuration separate along with resigning to the fact that Windows doesn't really get a lot of love
+                                from hipster web guys, I went for Linux virtual machine. After torrenting <a href="http://lubuntu.net/">Lubuntu</a>,
+                                installing needed packages, and countless <em>seconds</em> have passed, I finally got Jekyll up and running.
+                            </p>
+                            <p>
+                                As I said earlier, Jekyll pretty sweet. There's a lot you can do with it from the get go. For the other things I want,
+                                I can just write my own extensions for it. Neato.
+                            </p>
+                            <p>
+                                Actually, that last part was the problem.
+                            </p>
+                        </div>
+                        <div class="mdl-card__title"><h2 class="mdl-card__title-text">Giving up</h2></div>
+                        <div class="mdl-card__supporting-text mdl-color-text--grey-800">
+                            <p>
+                                In the end, this killed Jekyll for me:
+                            </p>
+                            <blockquote cite="https://help.github.com/articles/adding-jekyll-plugins-to-a-github-pages-site/">
+                                GitHub Pages officially supports the <a href="https://pages.github.com/versions/">Jekyll plugins</a> found in the
+                                <a href="https://github.com/github/pages-gem">GitHub Pages gem</a>. For the exact versions of the Jekyll plugins that
+                                GitHub Pages supports, see this list of <a href="https://pages.github.com/versions/">GitHub Pages dependencies</a>.
+                                Other plugins are not supported, so the only way to incorporate them in your site is to generate your site locally and
+                                then push your site's static files to your GitHub Pages site.
+                            </blockquote>
+                            <p>
+                                If I write my own extensions, I will end up pushing the generated files instead.
+                            </p>
+                            <p>
+                                So, I dropped Jekyll. I deleted the VM. I am sticking to the tools that I already have. And you know what? It's all good.
+                                From all these, a new personal project was conceived. :-)
+                            </p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <footer class="mdl-mini-footer">
+                <div class="mdl-mini-footer__center-section">
+                    <a rel="license" href="http://creativecommons.org/licenses/by/3.0/"><img alt="Creative Commons License" style="border-width:0" src="https://i.creativecommons.org/l/by/3.0/80x15.png" /></a>
+                    This work is licensed under a <a rel="license" href="http://creativecommons.org/licenses/by/3.0/">Creative Commons Attribution 3.0 Unported License</a>.
+                </div>
+            </footer>
+        </main>
+    </div>
+</body>
+</html>

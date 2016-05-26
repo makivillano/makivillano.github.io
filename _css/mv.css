@@ -1,0 +1,62 @@
+﻿.mdl-navigation__link, .mdl-layout-title, .mdl-button {
+    font-family: "Montserrat","Helvetica","Arial",sans-serif;
+    letter-spacing: 0.1em;
+}
+
+.mdl-card__title-text, .mdl-card__subtitle-text, .mdl-card__supporting-text, blockquote {
+    font-family: "Muli","Helvetica","Arial",sans-serif;
+}
+
+.mdl-card {
+    min-height: 180px;
+}
+
+.mdl-button {
+    color: #d50000;
+}
+
+.mv-nega-gine-32px {
+    margin-bottom: -32px;
+}
+
+.mv-content-max-width {
+    max-width: 960px;
+}
+
+.mv-banner {
+    background: url(/_images/banner.png) center;
+    background-size: cover;
+}
+
+.mv-photo {
+    background: url(/_images/photo.png) center;
+    background-size: cover;
+    min-height: 200px;
+}
+
+.mv-button-es {
+    width: auto;
+}
+
+::selection {
+    background: #ffebee;
+    text-shadow: none;
+}
+
+a {
+    text-decoration: none;
+}
+
+.mv-cap-label {
+    font-family: "Montserrat","Helvetica","Arial",sans-serif;
+    letter-spacing: 0.1em;
+}
+
+.mv-title-card {
+    min-height: 0;
+}
+
+blockquote{
+    font-style:normal;
+    font-size:1.2em;
+}
