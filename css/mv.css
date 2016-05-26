@@ -24,12 +24,12 @@
 }
 
 .mv-banner {
-    background: url(/_images/banner.png) center;
+    background: url(/images/banner.png) center;
     background-size: cover;
 }
 
 .mv-photo {
-    background: url(/_images/photo.png) center;
+    background: url(/images/photo.png) center;
     background-size: cover;
     min-height: 200px;
 }
